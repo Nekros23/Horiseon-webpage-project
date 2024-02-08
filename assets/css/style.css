@@ -82,23 +82,26 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Added font color to cover all headings under the class "benefits" */
+    color: #ffffff;
+    /* Added quotes around calibri to have it be recognized */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    
 }
 
 .benefit-lead h3 {
